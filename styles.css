@@ -19,8 +19,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color:  hsl(187, 24%, 22%);
     background-color: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+strong{
+    color: hsl(169, 82%, 27%);
 }

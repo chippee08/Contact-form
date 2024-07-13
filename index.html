@@ -11,29 +11,33 @@
       <form action="">
         <h1>Contact Us</h1>
         <div>
-          <label for="fname">First Name *</label>
-          <input type="text" id="fname" />
-          <label for="lname">Last Name *</label>
-          <input type="text" id="lname" />
+          <div class="fname">
+            <label for="fname">First Name <strong>*</strong></label>
+            <input type="text" id="fname" />
+          </div>
+          <div class="lname">
+            <label for="lname">Last Name <strong>*</strong></label>
+            <input type="text" id="lname" />
+          </div>
         </div>
         <div>
-            <label for="email">Email Address *</label>
-            <input type="text" id="email">
+          <label for="email">Email Address <strong>*</strong></label>
+          <input type="text" id="email" />
         </div>
         <div>
-            <label for="queryType">Query Type *</label>
-            <input type="radio" id="generalEnquiry" name="query">
-            <label for="generalEnquiry">General Enquiry</label>
-            <input type="radio" id="suppRequest" name="query">
-            <label for="suppRequest">Support Request</label>
+          <label for="queryType">Query Type <strong>*</strong></label>
+          <input type="radio" id="generalEnquiry" name="query" />
+          <label for="generalEnquiry">General Enquiry</label>
+          <input type="radio" id="suppRequest" name="query" />
+          <label for="suppRequest">Support Request</label>
         </div>
         <div>
-            <label for="msg">Message *</label>
-            <input type="text" id="msg">
+          <label for="msg">Message <strong>*</strong></label>
+          <input type="text" id="msg" />
         </div>
         <div>
-            <input type="checkbox" id="consent" name="consent">
-            <label for="consent">I consent being contacted by the team *</label>
+          <input type="checkbox" id="consent" name="consent" />
+          <label for="consent">I consent being contacted by the team *</label>
         </div>
 
         <button type="submit" id="submitBtn">Submit</button>
