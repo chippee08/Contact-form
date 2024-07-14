@@ -10,7 +10,7 @@
     <div class="content">
       <form action="">
         <h1>Contact Us</h1>
-        <div>
+        <div class="names">
           <div class="fname">
             <label for="fname">First Name <strong>*</strong></label>
             <input type="text" id="fname" />
@@ -20,24 +20,31 @@
             <input type="text" id="lname" />
           </div>
         </div>
-        <div>
+        <div class="email">
           <label for="email">Email Address <strong>*</strong></label>
           <input type="text" id="email" />
         </div>
-        <div>
+        <div class="query">
           <label for="queryType">Query Type <strong>*</strong></label>
-          <input type="radio" id="generalEnquiry" name="query" />
-          <label for="generalEnquiry">General Enquiry</label>
-          <input type="radio" id="suppRequest" name="query" />
-          <label for="suppRequest">Support Request</label>
+          <div class="queryDisplay">
+            <div class="genEnquiry">
+              <input type="radio" id="generalEnquiry" name="query" />
+              <label for="generalEnquiry">General Enquiry</label>
+            </div>
+
+            <div class="suppReq">
+              <input type="radio" id="suppRequest" name="query" />
+              <label for="suppRequest">Support Request</label>
+            </div>
+          </div>
         </div>
-        <div>
+        <div class="message">
           <label for="msg">Message <strong>*</strong></label>
           <input type="text" id="msg" />
         </div>
-        <div>
+        <div class="checkBox">
           <input type="checkbox" id="consent" name="consent" />
-          <label for="consent">I consent being contacted by the team *</label>
+          <label for="consent">I consent being contacted by the team <strong>*</strong></label>
         </div>
 
         <button type="submit" id="submitBtn">Submit</button>

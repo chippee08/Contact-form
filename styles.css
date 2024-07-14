@@ -14,7 +14,7 @@ body {
     align-items: center;
 }
 
-.content {
+.content{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,4 +28,50 @@ body {
 
 strong{
     color: hsl(169, 82%, 27%);
+}
+
+.names{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fname, .lname{
+    display: flex;
+    flex-direction: column;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+}
+
+.query{
+    display: flex;
+    flex-direction: column;
+}
+
+.queryDisplay{
+    display: flex;
+}
+
+.genEnquiry, .suppReq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid hsl(187, 24%, 22%);
+    border-radius: 5px;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+}
+
+#submitBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color:  hsl(169, 82%, 27%);
+    color: white;
 }
