@@ -5,13 +5,14 @@
     box-shadow: none;
 }
 
-body {
-    height: 100vh;
+html, body {
+    height: 100%;
     font-family: 'Karla', sans-serif;
     background-color: hsl(186, 16%, 76%);
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .content{
@@ -47,12 +48,13 @@ h1{
 .fname, .lname{
     display: flex;
     flex-direction: column;
-    padding: ;
+    margin: 20px 20px 20px 0;
 }
 
-.fname label, .lname label{
+.labels{
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 10px;
 }
 
 .fname input, .lname input{
@@ -64,28 +66,48 @@ h1{
 .email{
     display: flex;
     flex-direction: column;
+    margin: 20px 20px 20px 0;
+}
+
+.email input{
+    height: 50px;
+    border-radius: 10px;
 }
 
 .query{
     display: flex;
     flex-direction: column;
+    margin: 20px 20px 20px 0;
 }
 
 .queryDisplay{
     display: flex;
+    gap: 20px;
 }
 
 .genEnquiry, .suppReq{
     display: flex;
-    justify-content: center;
     align-items: center;
     border: 1px solid hsl(187, 24%, 22%);
     border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    gap: 15px;
+    padding-left: 20px;
 }
 
 .message{
     display: flex;
     flex-direction: column;
+    margin: 20px 20px 20px 0;
+}
+
+#msg{
+    max-height: 150px;
+    min-height: 150px;
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 10px;
 }
 
 #submitBtn{
@@ -94,4 +116,5 @@ h1{
     align-items: center;    
     background-color:  hsl(169, 82%, 27%);
     color: white;
+    width: 100%;
 }

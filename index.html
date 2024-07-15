@@ -12,20 +12,21 @@
         <h1>Contact Us</h1>
         <div class="names">
           <div class="fname">
-            <label for="fname">First Name <strong>*</strong></label>
+            <label class="labels" for="fname">First Name <strong>*</strong></label>
             <input type="text" id="fname" />
           </div>
           <div class="lname">
-            <label for="lname">Last Name <strong>*</strong></label>
+            <label class="labels" for="lname">Last Name <strong>*</strong></label>
             <input type="text" id="lname" />
           </div>
         </div>
         <div class="email">
-          <label for="email">Email Address <strong>*</strong></label>
+          <label class="labels" for="email">Email Address <strong>*</strong></label>
           <input type="text" id="email" />
         </div>
+
         <div class="query">
-          <label for="queryType">Query Type <strong>*</strong></label>
+          <label class="labels" for="queryType">Query Type <strong>*</strong></label>
           <div class="queryDisplay">
             <div class="genEnquiry">
               <input type="radio" id="generalEnquiry" name="query" />
@@ -38,9 +39,10 @@
             </div>
           </div>
         </div>
+        
         <div class="message">
-          <label for="msg">Message <strong>*</strong></label>
-          <input type="text" id="msg" />
+          <label class="labels" for="msg">Message <strong>*</strong></label>
+          <textarea name="msg" id="msg"></textarea>
         </div>
         <div class="checkBox">
           <input type="checkbox" id="consent" name="consent" />
