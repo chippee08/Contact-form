@@ -96,6 +96,10 @@ h1{
     padding-left: 20px;
 }
 
+input[type="radio"], input[type="checkbox"]{
+    accent-color:  hsl(169, 82%, 27%);
+}
+
 .message{
     display: flex;
     flex-direction: column;
