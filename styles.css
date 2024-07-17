@@ -5,14 +5,9 @@
     box-shadow: none;
 }
 
-html, body {
-    height: 100%;
+body{
     font-family: 'Karla', sans-serif;
     background-color: hsl(186, 16%, 76%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
 }
 
 .content{
@@ -20,9 +15,12 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 50%;
+    max-width: 1000px;
+    min-width: 200px;
     color:  hsl(187, 24%, 22%);
     background-color: white;
-    margin: 20px 0 20px 0;
+    margin: 100px auto 100px auto;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -62,6 +60,8 @@ h1{
     width: 250px;
     height: 50px;
     border-radius: 10px;
+    padding: 20px;
+    font-size: 16px;
 }
 
 .email{
@@ -73,6 +73,10 @@ h1{
 .email input{
     height: 50px;
     border-radius: 10px;
+    outline: auto;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
 }
 
 .query{
@@ -95,6 +99,7 @@ h1{
     height: 50px;
     gap: 15px;
     padding-left: 20px;
+    margin-bottom: 10px;
 }
 
 input[type="radio"], input[type="checkbox"]{
@@ -113,6 +118,13 @@ input[type="radio"], input[type="checkbox"]{
     max-width: 100%;
     min-width: 100%;
     border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.checkBox{
+    margin: 20px 20px 20px 0;
 }
 
 #submitBtn{
@@ -122,4 +134,8 @@ input[type="radio"], input[type="checkbox"]{
     background-color:  hsl(169, 82%, 27%);
     color: white;
     width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    outline: auto;
+    cursor: pointer;
 }
