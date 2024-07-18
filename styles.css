@@ -103,6 +103,16 @@ h1{
     margin-bottom: 10px;
 }
 
+.genEnquiry:hover{
+    border-color:  hsl(169, 82%, 27%);
+    background-color: hsl(148, 38%, 91%);
+}
+
+.suppReq:hover{
+    border-color:  hsl(169, 82%, 27%);
+    background-color: hsl(148, 38%, 91%);
+}
+
 input[type="radio"], input[type="checkbox"]{
     accent-color:  hsl(169, 82%, 27%);
 }
