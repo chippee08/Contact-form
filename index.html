@@ -7,51 +7,60 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="content">
-      <form action="">
-        <h1>Contact Us</h1>
-        <div class="names">
-          <div class="fname">
-            <label class="labels" for="fname">First Name <strong>*</strong></label>
-            <input type="text" id="fname" />
-          </div>
-          <div class="lname">
-            <label class="labels" for="lname">Last Name <strong>*</strong></label>
-            <input type="text" id="lname" />
-          </div>
-        </div>
-        <div class="email">
-          <label class="labels" for="email">Email Address <strong>*</strong></label>
-          <input type="text" id="email" />
-        </div>
+    <form action="">
 
-        <div class="query">
-          <label class="labels" for="queryType">Query Type <strong>*</strong></label>
-          <div class="queryDisplay">
-            <div class="genEnquiry">
-              <input type="radio" id="generalEnquiry" name="query" />
-              <label for="generalEnquiry">General Enquiry</label>
-            </div>
+      <h1>Contact Us</h1>
 
-            <div class="suppReq">
-              <input type="radio" id="suppRequest" name="query" />
-              <label for="suppRequest">Support Request</label>
-            </div>
+      <div class="names">
+        <div class="fname">
+          <label class="labels" for="fname"
+            >First Name <strong>*</strong></label
+          >
+          <input type="text" id="fname" />
+        </div>
+        <div class="lname">
+          <label class="labels" for="lname">Last Name <strong>*</strong></label>
+          <input type="text" id="lname" />
+        </div>
+      </div>
+      
+      <div class="email">
+        <label class="labels" for="email"
+          >Email Address <strong>*</strong></label
+        >
+        <input type="text" id="email" />
+      </div>
+
+      <div class="query">
+        <label class="labels" for="queryType"
+          >Query Type <strong>*</strong></label
+        >
+        <div class="queryDisplay">
+          <div class="genEnquiry">
+            <input type="radio" id="generalEnquiry" name="query" />
+            <label for="generalEnquiry">General Enquiry</label>
+          </div>
+
+          <div class="suppReq">
+            <input type="radio" id="suppRequest" name="query" />
+            <label for="suppRequest">Support Request</label>
           </div>
         </div>
-        
-        <div class="message">
-          <label class="labels" for="msg">Message <strong>*</strong></label>
-          <textarea name="msg" id="msg"></textarea>
-        </div>
-        <div class="checkBox">
-          <input type="checkbox" id="consent" name="consent" />
-          <label for="consent">I consent being contacted by the team <strong>*</strong></label>
-        </div>
+      </div>
 
-        <button type="submit" id="submitBtn">Submit</button>
-      </form>
-    </div>
+      <div class="message">
+        <label class="labels" for="msg">Message <strong>*</strong></label>
+        <textarea name="msg" id="msg"></textarea>
+      </div>
+      <div class="checkBox">
+        <input type="checkbox" id="consent" name="consent" />
+        <label for="consent"
+          >I consent being contacted by the team <strong>*</strong></label
+        >
+      </div>
+
+      <button type="submit" id="submitBtn">Submit</button>
+    </form>
 
     <script src="index.js" type="script"></script>
   </body>
