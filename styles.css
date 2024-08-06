@@ -53,7 +53,7 @@ h1{
 }
 
 .fname input, .lname input{
-    width: 100%;
+    width: 93%;
     height: 50px;
     border: 1px solid grey;
     border-radius: 10px;
